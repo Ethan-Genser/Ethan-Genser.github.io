@@ -3,25 +3,64 @@ p {
 	font-size: 1em;
 	font-family: "Arial", Arial, sanserif;
 	color: #000000;
-	line-height: 0;
-	padding-left: 10%;
+	line-height: 2;
+} 
+a {
+	color: #58603C;
+}
+li {
+	font-size: 1em;
+	font-family: "Arial", Arial, sanserif;
+	font-weight: bold;
+	color: #7F7F7F;
+	line-height: 2.5;
+	padding-left: 1em;
 }
 
 /* Classes */
 .name {
 	font-size: 9em;
 	font-family: "Arial Black", Arial, sanserif;
+	line-height: 0;
 }
 .subtitle {
 	font-size: 1.2em;
 	font-family: "Arial Black", Arial, sanserif;
 	font-style: italic;
 	color: #7F7F7F;
+	line-height: 0;
 }
 .header {
 	font-size: 2em;
 	font-family: "Arial Black", Arial, sanserif;
-	padding-top: 6em;
+	padding-top: 3em;
+	line-height: 0;
+}
+.body-text {
+	color: #7F7F7F;
+}
+.contact-info {
+	line-height: 1;
+	color: #7F7F7F;
+	font-style: italic;
+}
+.contact-icon {
+	width: 1.5em;
+	height: 1.5em;
+	padding-right: 0.5em;
+}
+.table-caption {
+	font-size: 1.2em;
+	font-family: "Arial Black", Arial, sanserif;
+	line-height: 0;
+	text-align: center;
+	padding-left: 0;
+}
+.chart-container {
+	padding-top: 50%;
+}
+.chart {
+	width: 100%;
 }
 .page-table {
 	width: 100%;
@@ -29,6 +68,7 @@ p {
 }
 .page-cell {
 	height: 100%;
+	padding-left: 5%;
 }
 
 /* IDs */
@@ -37,5 +77,24 @@ p {
 }
 #right-collumn {
 	width: 30%;
-	
+}
+#contact-icons {
+	padding-right: 10%;
+}
+#logo {
+	width: 100%;
+}
+#name-container {
+	padding-top: 30%;
+}
+#name-cell {
+	width: 50%;
+	padding-left: 5%;
+}
+#logo-cell {
+	width: 50%;
+	padding-left: 5%;
+}
+#title-table {
+	width: 100%;
 }
