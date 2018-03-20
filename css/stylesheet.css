@@ -1,4 +1,7 @@
 /* Tags */
+body {
+	background-color: #EEEEEE
+}
 p {
 	font-size: 1em;
 	font-family: "Arial", Arial, sanserif;
@@ -27,7 +30,7 @@ li {
 	font-size: 1.2em;
 	font-family: "Arial Black", Arial, sanserif;
 	font-style: italic;
-	color: #7F7F7F;
+	color: #BBBBBB;
 	line-height: 0;
 }
 .header {
@@ -97,4 +100,5 @@ li {
 }
 #title-table {
 	width: 100%;
+	background-color: #777777
 }
