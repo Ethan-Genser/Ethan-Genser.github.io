@@ -14,17 +14,80 @@
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 	</head>
 	<body>
-		<div id="greeting">
+
+		<!-- HOME -->
+		<div class="anchor" id="home-anchor">
 			<h1 class="glow" id="ethan-genser"> Ethan Genser </h1>
-			<h3 id="description"> Student / Software Developer </h3> 
+			<h3 id="description"> Student / Software Engineer </h3> 
 		</div>
 		<div id="nav-bar">
 			<span id="nav-buttons">
-				<a class="nav-button" id="home" href="">Home</a>
-				<a class="nav-button" href="">About</a>
-				<a class="nav-button" href="">Projects</a>
-				<a class="nav-button" href="">Contact</a>
+				<a class="nav-button" id="home" href="#home-anchor">Home</a>
+				<a class="nav-button" href="#about-anchor">About</a>
+				<a class="nav-button" href="#projects-anchor">Projects</a>
+				<a class="nav-button" href="#contact-anchor">Contact</a>
 			</span>
+		</div>
+
+		<!-- ABOUT -->
+		<div class="anchor" id="about-anchor">
+			<h1 class="header glow">About Me</h1>
+			<div class="row">
+				<div class="column">
+					<p class="paragraph-data"> Welcome to my webpage! My name is Ethan. I am currently a student planning on majoring in computer science with a minor in mathematics. I have experience in C#, Python, C++, as well as a little bit of Java and Javascript. My interests include machine learning, simulation, and data analysis. I love to challenge myself and learn new things.</p>
+					<p class="paragraph-data"> On the rare occation that I have some down time, I like to play video games. I also do some things away from computer (although probably not as much as I should) such as mountain bike, camp, and fish.</p>
+					<p class="paragraph-data">I'm not very good at talking about myself, so I will now invite you take a look at some of my personal projects below and see what you think.</p>
+				</div>
+				<div class="column">
+					 <img id="profile-pic" src="images/placeholder.png">
+				</div>
+			</div>
+		</div>
+		
+		<!-- PROJECTS -->
+		<div class="anchor" id="projects-anchor">
+			<h1 class="header glow" id="projects-header">My Projects</h1>
+			<div class="row">
+				<div class="column">
+					<a class="project-link" href="https://ethan-genser.github.io/Steganography/"><p>Steganography</p></a>
+				</div>
+				<div class="column">
+					<a class="project-link" href="https://ethan-genser.github.io/Maze_Generator/"><p>Maze Generator</p></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<p class="project-data">This is a Python script that allows the user to hide a secret image inside of a cover image. Later, the user can then use the program to reverse the encoding and regain an aproximate copy of the original.</p>
+				</div>
+				<div class="column">
+					<p class="project-data">This program proceduraly generates mazes using a recursive backtracking algorithm. It is written in C++11 and structured in an object oriented manner.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a class="project-link" href="https://ethan-genser.github.io/CDC_Data_Analysis/"><p>CDC Data Visualizer</p></a>
+				</div>
+				<div class="column">
+					<a class="project-link" href="https://ethan-genser.github.io/Conways_Game_Of_Life/"><p>Conway's Game of Life</p></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<p class="project-data">This short python program takes specialy formatted datasets from the Center for Disease Control and Prevention's website as input and outputs a xlsx file. The output file organizes the data into tables and creates a graphical chart to help visualize the information.</p>
+				</div>
+				<div class="column">
+					<p class="project-data">This is a model of John Conway's 'Game of Life'. The simulation is built in C# using Microsoft XNA as the framework and the Monogame Content Pipeline for a graphical interface.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact -->
+		<div id="contact-anchor">
+			<h1 class="header" id="contact-header">Contact</h1>>
+			<a id="git" href="https://github.com/Ethan-Genser"><img class="contact-button" src="images/GitHub_logo.png"></a>
+			<a id="google" href="https://plus.google.com/u/0/111515272302994905514"><img class="contact-button" src="images/Google_logo.png"></a>
+			<a id="mail" href="mailto:ethanp1033@gmail.com?Subject=Empty%20Subject" target="_top"><img class="contact-button" src="images/Mail_logo.png"></a>
+			<br>
 		</div>
 	</body>
 </html>

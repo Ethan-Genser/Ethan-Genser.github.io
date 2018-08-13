@@ -14,7 +14,7 @@ body {
 	height: 100%;
 	width: 100%;
 }
-#greeting {
+#home-anchor {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -73,4 +73,103 @@ body {
 }
 #home:active {
 	color: rgb(34, 97, 128);
+}
+#about-anchor {
+	padding-top: 30px;
+}
+#about-table {
+	width: 100%;
+}
+#about-left-collumn {
+	width: 100px;
+}
+#about-right-collumn {
+	width: 100px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+#profile-pic {
+	display: block;
+	margin: auto;
+}
+.header {
+	font-size: 35pt;
+}
+.paragraph-data {
+	font-size: 15pt;
+}
+.anchor {
+	margin-bottom: 200px;
+}
+.project-link {
+	font-size: 20pt;
+	margin-bottom: -15px;
+	text-decoration: none;
+	text-align: center;
+}
+.project-link:link {
+	color: rgb(104, 167, 198);
+}
+.project-link:visited {
+	color: rgb(104, 167, 198);
+}
+.project-link:hover {
+	color: rgb(64, 127, 158);
+}
+.project-link:active {
+	color: rgb(34, 97, 128);
+}
+#projects-anchor {
+	/*background-color: rgb(34, 97, 128);*/
+}
+.project-data {
+	text-align: center;
+	font-size: 15pt;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+#contact-anchor {
+	background-color: white;
+	background-image: url("images/contactbar.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#contact-buttons {
+	width: 100%;
+	margin: auto;
+}
+.contact-button {
+	width: 33px;
+	height: 33px;
+}
+#contact-header {
+	color: black;
+	text-align: center;
+	margin-bottom: 8Spx;;
+}
+#git {
+	margin-left: 43%;
+}
+#google {
+	margin-left: 3%;
+}
+#mail {
+	margin-left: 3%;
+}
+#email {
+	text-align: center;
+	color: black;
 }
