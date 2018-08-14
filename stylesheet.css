@@ -18,6 +18,7 @@ body {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	text-align: center;
 	margin: auto;
 	height: 85%;
@@ -99,7 +100,10 @@ body {
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
-    }
+	}
+	.nav-button {
+		font-size: 12pt;
+	}
 }
 #profile-pic {
 	display: block;
@@ -148,7 +152,8 @@ body {
 	background-repeat: no-repeat;
 }
 #contact-buttons {
-	width: 100%;
+	width: 142px;
+	display: block;
 	margin: auto;
 }
 .contact-button {
@@ -161,15 +166,10 @@ body {
 	margin-bottom: 8Spx;;
 }
 #git {
-	margin-left: 43%;
+	margin-right: 17px;
 }
 #google {
-	margin-left: 3%;
+	margin-right: 17px;
 }
 #mail {
-	margin-left: 3%;
-}
-#email {
-	text-align: center;
-	color: black;
 }
