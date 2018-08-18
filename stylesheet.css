@@ -137,9 +137,6 @@ body {
 .project-link:active {
 	color: rgb(34, 97, 128);
 }
-#projects-anchor {
-	/*background-color: rgb(34, 97, 128);*/
-}
 .project-data {
 	text-align: center;
 	font-size: 15pt;
@@ -153,24 +150,20 @@ body {
 	background-repeat: no-repeat;
 }
 #contact-buttons {
-	width: 142px;
+	width: 197px;
 	display: block;
 	margin: auto;
 }
 .contact-button {
 	width: 33px;
 	height: 33px;
+	margin-right: 17px;
 }
 #contact-header {
 	color: black;
 	text-align: center;
-	margin-bottom: 8Spx;;
-}
-#git {
-	margin-right: 17px;
-}
-#google {
-	margin-right: 17px;
+	margin-bottom: 20px;
 }
 #mail {
+	margin-right: 0px;
 }
